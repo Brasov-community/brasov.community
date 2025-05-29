@@ -1,11 +1,11 @@
 export const url = process.env.URL || 'http://localhost:8080';
 // Extract domain from `url`
 export const domain = new URL(url).hostname;
-export const siteName = 'Eleventy Excellent';
-export const siteDescription = 'Eleventy starter for building modern, resilient websites';
+export const siteName = 'Comunitatea Brașoveană';
+export const siteDescription = 'O comunitate de cetățeni din Brașov care se implică în dezvoltarea orașului.';
 export const siteType = 'Person'; // schema
-export const locale = 'en_EN';
-export const lang = 'en';
+export const locale = 'ro_RO';
+export const lang = 'ro';
 export const skipContent = 'Skip to content';
 export const author = {
   name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
@@ -15,10 +15,7 @@ export const author = {
   fediverse: '@lene@front-end.social' // used for highlighting journalism on the fediverse. Can be Mastodon, Flipboard, Threads, WordPress (with the ActivityPub plugin installed), PeerTube, Pixelfed, etc. https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
 };
 export const creator = {
-  name: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.
-  email: 'hola@lenesaile.com',
-  website: 'https://www.lenesaile.com',
-  social: 'https://front-end.social/@lene'
+  name: 'Brașov'
 };
 export const pathToSvgLogo = 'src/assets/svg/misc/logo.svg'; // used for favicon generation
 export const themeColor = '#dd4462'; // used in manifest, for example primary color value
