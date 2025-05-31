@@ -1,0 +1,13 @@
+---
+title: Viziunea Proiectului Comunității Brașovene
+permalink: /viziune/index.html
+description: 'Proiectul comunitar Brașov își propune să devină o resursă centrală, deschisă și colaborativă pentru toți cei interesați de dezvoltarea și viața comunității din Brașov.'
+layout: page
+---
+
+{% set vision_content %}
+  {%- include 'VISION.md' -%}
+{% endset %}
+
+{# The first line is a title, so we remove it to avoid duplication in the rendered content. #}
+{{ vision_content | removeFirstLine | markdownFormat | safe }}
