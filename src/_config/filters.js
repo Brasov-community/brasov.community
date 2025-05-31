@@ -1,5 +1,6 @@
 import { formatDate, toISOString } from './filters/dates.js';
 import { markdownFormat } from './filters/markdown-format.js';
+import { removeFirstLine } from './filters/remove-first-line.js';
 import { slugifyString } from './filters/slugify.js';
 import { sortAlphabetically } from './filters/sort-alphabetic.js';
 import { shuffleArray } from './filters/sort-random.js';
@@ -14,5 +15,6 @@ export default {
   striptags,
   shuffleArray,
   sortAlphabetically,
-  slugifyString
+  slugifyString,
+  removeFirstLine
 };
