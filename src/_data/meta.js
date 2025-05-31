@@ -40,17 +40,7 @@ export const blog = {
       url: '/feed.json',
       type: 'application/json'
     }
-  ],
-  // Tags
-  tagSingle: 'Tag',
-  tagPlural: 'Tags',
-  tagMore: 'More tags:',
-  // pagination
-  paginationLabel: 'Blog',
-  paginationPage: 'Page',
-  paginationPrevious: 'Previous',
-  paginationNext: 'Next',
-  paginationNumbers: true
+  ]
 };
 export const details = {
   aria: 'section controls',
