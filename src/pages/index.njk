@@ -2,9 +2,6 @@
 layout: base
 permalink: /index.html
 description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
-blog:
-  title: 'Blog'
-  intro: "I'm showing the last 4 blog posts, but there might be more!"
 ---
 
 <div class="wrapper">
@@ -32,22 +29,4 @@ blog:
       <p><strong>Have fun</strong> and let me know if you find any issues or have ideas for improvements!</p>
     </div>
   </article>
-
-  <section class="full | region">
-    <div class="wrapper flow prose">
-      <h2>{{ blog.title }}</h2>
-      {% if blog.intro %}
-        <p>{{ blog.intro }}</p>
-      {% endif %}
-      <div class="feature |  region region-space-l">
-        <custom-masonry layout="50-50">
-          {% set itemList = collections.allPosts %}
-					{% asyncEach item in itemList.slice(0, 4) %}
-            {% set headingLevel = "h3" %}
-						{% include "partials/card-blog.njk" %}
-					{% endeach %}
-        </custom-masonry>
-      </div>
-    </div>
-  </section>
 </div>
