@@ -1,10 +1,6 @@
 export default {
   top: [
     {
-      text: 'About',
-      url: '/about/'
-    },
-    {
       text: 'Viziune',
       url: '/viziune/'
     }
