@@ -1,0 +1,7 @@
+p {
+  margin-top: var(--space-s);
+}
+
+code {
+  background-color: var(--color-secondary);
+}
