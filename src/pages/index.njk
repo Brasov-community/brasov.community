@@ -11,4 +11,19 @@ description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flex
     </div>
     {% svg "divider/waves", null, "divider" %}
   </header>
+
+  <section class="full | region">
+    <div class="wrapper flow prose">
+      <div class="feature | region region-space-l">
+        <ul>
+          {% for wiki in collections.allWikis %}
+            <li>
+              <a href="{{ wiki.url }}">{{ wiki.data.title }}</a>
+              <p>{{ wiki.data.description }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
 </div>
