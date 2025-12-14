@@ -5,10 +5,5 @@ export default {
       url: '/viziune/'
     }
   ],
-  bottom: [
-    {
-      text: 'Privacy',
-      url: '/privacy/'
-    }
-  ]
+  bottom: []
 };
