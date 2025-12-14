@@ -29,18 +29,7 @@ export const blog = {
   name: 'My Web Development Blog',
   description: 'Tell the word what you are writing about in your blog. It will show up on feed readers.',
   // feed links are looped over in the head. You may add more to the array.
-  feedLinks: [
-    {
-      title: 'Atom Feed',
-      url: '/feed.xml',
-      type: 'application/atom+xml'
-    },
-    {
-      title: 'JSON Feed',
-      url: '/feed.json',
-      type: 'application/json'
-    }
-  ]
+  feedLinks: []
 };
 export const details = {
   aria: 'section controls',
